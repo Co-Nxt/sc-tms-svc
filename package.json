@@ -1,0 +1,26 @@
+{
+  "name": "tms-attendance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node boot.js",
+    "dev": "nodemon boot.js"
+  },
+  "keywords": [],
+  "author": "John Nico Novero",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "moment": "^2.29.4",
+    "mongodb": "^5.7.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
