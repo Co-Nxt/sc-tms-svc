@@ -19,11 +19,11 @@ const userLogin = async (data, callback) => {
   if (passwordChecker) {
     const generatedToken = await authUtils.generateAccessToken(
       userDetails,
-      "15m"
+      "60m"
     );
     const generatedRefreshToken = await authUtils.generateRefreshToken(
       userDetails,
-      "20m"
+      "61m"
     );
     const user = {
       accessToken: generatedToken,

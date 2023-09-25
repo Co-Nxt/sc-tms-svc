@@ -9,7 +9,8 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 app.use(bodyParser.json());
-app.use(cors({origin:'*'}))
+// app.use(cors({origin:'*'}))
+app.use(cors())
 
 svcRoute(app);
 authRoute(app);
